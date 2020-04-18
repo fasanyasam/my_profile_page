@@ -1,0 +1,177 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+main {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-image: url(img/bgd.jpg);
+	background-size: cover;
+	padding-bottom: 60px;
+}
+nav {
+	height: 40px;
+	width:100%;
+	margin: auto;
+	padding:15px;
+
+}
+
+nav ul li{
+	display: inline;
+	border: 2px solid;
+	border-color: white;
+	padding: 15px;
+	background-image: url(img/grad.png);
+	text-align:center;			
+	margin: 10px;
+	border-radius: 5px;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: blue;
+}
+
+nav ul li:hover{
+	background: white;
+	color: blue;
+	padding: 15px;
+	transition: .5s ease-in;
+	
+}
+#container {
+	height: 92%;
+	width: 90%;
+	opacity: 90%;
+	background-image: url(img/grad.png);
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+section {
+	height: 50%;
+	width: 90%;
+	display: grid;
+	grid-template-columns: auto auto;
+	border: none;
+	margin: auto;
+	
+
+}
+#profile {
+	margin: auto;
+	line-height: 1.0;
+	margin-top: -10px;
+}
+#picture{
+	margin: auto;
+	background-image: url(img/passport.png);
+	height: 400px;
+	width: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 200px;
+
+}
+footer {
+	height: 50px;
+	width:100%;
+	background-color: blue;
+	color: blue;
+	margin: auto;
+	text-align: center;
+	margin-top: -4px;
+	background-image: url(img/grad.png);
+}
+footer p{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 20px;
+}
+h3 {
+	color: blue;
+	opacity: 100%;
+	padding-left: 50px;
+
+}
+
+table {
+	margin-top: -20px;
+	border-radius: 10px;
+	margin-bottom: 5px; 
+	border: 2px solid;
+	padding: 20px;
+	border-color: white;
+}
+td {
+	margin: auto;
+	border: 1px thin;
+	border-collapse: collapse;
+	border-radius: 5px;
+	line-height: 1.5;
+	width: 230px;
+}
+
+hr {
+
+	border: 2px solid;
+	border-color: white;
+}
+section p {
+	text-align: justify;
+	line-height:1.5 ;
+	width: 80%;
+	font-size: 14px;
+
+}
+form {
+	border-radius: 15px;
+	border: 2px solid;
+	border-color: white;
+	background-color: transparent;
+	height: 260px;
+	width: 350px;
+	margin: auto;
+	
+}
+input {
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	border: none;
+	background-color: lightgray;
+	margin: 10px;
+	margin-right: 50px;
+
+}
+label {
+	color: blue;
+	padding-left: 10px;
+	font-size: 14px;
+
+}
+#message {
+	width: 200px;
+	height:40px;
+	margin-left: 10px;
+
+}
+#button{
+	height: 30px;
+	width: 100px;
+	background-color: blue;
+	color: white;
+	margin: auto;
+	text-align: center;
+	margin-left: 10px;
+}
+
+
+div p{
+	padding-left: 50px;
+}
