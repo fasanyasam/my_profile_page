@@ -7,7 +7,7 @@ main {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background-image: url(img/bgd.jpg);
+	background-image: url(bgd.jpg);
 	background-size: cover;
 	padding-bottom: 60px;
 }
@@ -24,7 +24,7 @@ nav ul li{
 	border: 2px solid;
 	border-color: white;
 	padding: 15px;
-	background-image: url(img/grad.png);
+	background-image: url(grad.png);
 	text-align:center;			
 	margin: 10px;
 	border-radius: 5px;
@@ -47,7 +47,7 @@ nav ul li:hover{
 	height: 92%;
 	width: 90%;
 	opacity: 90%;
-	background-image: url(img/grad.png);
+	background-image: url(grad.png);
 	margin: auto;
 	padding-bottom: 30px;
 }
@@ -69,13 +69,12 @@ section {
 }
 #picture{
 	margin: auto;
-	background-image: url(img/passport.png);
+	background-image: url(passport.png);
 	height: 400px;
 	width: 300px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	border: none;
-	border-radius: 200px;
+
 
 }
 footer {
@@ -86,7 +85,7 @@ footer {
 	margin: auto;
 	text-align: center;
 	margin-top: -4px;
-	background-image: url(img/grad.png);
+	background-image: url(grad.png);
 }
 footer p{
 	font-size: 14px;
